@@ -1,0 +1,185 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --pink-color:rgb(255, 90, 25);
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color:black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+    color:black;
+}
+
+.nav-link{
+    margin-right:10px;
+    margin-left:10px;
+    color:black;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-link:hover{
+    color: var(--pink-color)!important;
+}
+
+.nav-link:visited{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid var(--pink-color);
+    margin-right: -35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btnsearch{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background:var(--pink-color) ;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.main{
+    background: url(../images/bg/bg-1.jpg)no-repeat;
+    background-size: cover;
+    height: 63vh;
+    width: 100%;
+    background-position: 50%;
+    margin-top: 73px;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:var(--pink-color) ;
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+
+.btn1:hover{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.btn2{
+    height: 45px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color:var(--pink-color);
+    color: white;
+    font-weight: 700;
+}
+
+.btn2:hover{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+.bg-color{
+    background-color:ghostwhite;
+}
+
+.img-size{
+    height:150px;
+    width: 200px;
+}
+
+.sec-background{
+    background-color:ghostwhite;
+}
+
+.card-radius{
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+
+.my-active{
+    color:var(--pink-color)!important;
+}
+
+
+.news{
+    background-color: black;
+    color: white;
+}
+
+.btn3{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    font-weight: 600;
+    border: 2px solid white;
+    line-height: normal;
+}
+
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color:white;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.news input::placeholder{
+    color: white;
+}
+
+.news a{
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.news a:hover{
+    text-decoration: underline;
+}
+
+.fab{
+    font-size: 2.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.my-shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.my-shadow:hover{
+    box-shadow: 0 .5rem 3rem rgba(0,0,0,.15);
+}
+
+/* trending page */
+
+.popular-pad-t, .contact-pad-t{
+    padding-top: 50px;
+}
