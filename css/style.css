@@ -5,7 +5,7 @@
 }
 
 :root{
-    --pink-color:rgb(255, 90, 25);
+    --pink-color:rgb(41, 114, 22);
 }
 
 .navbar-brand{
@@ -56,12 +56,14 @@
 }
 
 .main{
-    background: url(../images/bg/bg-1.jpg)no-repeat;
+    background: url(../images/bg/Background.jpg)no-repeat;
     background-size: cover;
     height: 63vh;
     width: 100%;
     background-position: 50%;
     margin-top: 73px;
+    color: white;
+    text-shadow: 0 0 20px black;
 }
 
 .main h1{
