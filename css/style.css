@@ -185,3 +185,12 @@
 .popular-pad-t, .contact-pad-t{
     padding-top: 50px;
 }
+
+#paddingtop{
+    padding-top: 150px;
+}
+
+#paddingbottom{
+    padding-bottom: 70px;
+}
+
